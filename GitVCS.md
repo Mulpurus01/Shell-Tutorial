@@ -59,8 +59,9 @@ _Conflict occurs when Dev1 created Branch1 from MAIN1.0 and Dev2 created  Branch
 **Commit History**
 1. `git log`
 2. `git show <Commit ID>`
-3. `git show --name-only <Commit ID> `
-4. `git commit --amend` To modify recent commit  
+3. `git show --name-only <Commit ID>`
+4. `git commit --amend` To modify recent commit
+5. `git pull --rebase` Used when making changes in same branch for solo projects, add local commit on top of remote commit
 
 **Delete Local Commits**
 1. `git reset --hard origin<Branch Name>` Reset Local as per remote: 
